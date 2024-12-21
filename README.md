@@ -3,14 +3,14 @@
 This project is a Rust-based token wallet implemented on the Internet Computer Protocol (ICP) blockchain. The wallet supports functionalities such as sending and receiving tokens, checking balances, and ensuring basic wallet security.
 
 
-****Features****
+# Features
 
 Mint Tokens: Add tokens to a wallet for testing purposes.
 Transfer Tokens: Send tokens from one wallet to another.
 Check Balance: Display the balance of a specified wallet.
 
 
-****Prerequisites****
+# Prerequisites
 
 1. DFINITY SDK:
    
@@ -27,7 +27,7 @@ cd <repository-folder>
 
 
 
-****Setup-Instructions****
+# Setup-Instructions
 
 1. Initialize the Project:
    
@@ -44,7 +44,7 @@ Update the dfx.json file to include the Rust canister configuration.
 dfx deploy
 
 
-****Usage Instructions****
+# Usage Instructions
 
 1. Mint Tokens:
 
@@ -62,7 +62,7 @@ Check the balance of a specific wallet:
 dfx canister call icp_wallet balance_of '("<wallet_address>")'
 
 
-****Testing****
+# Testing
 
 1. Run Unit Tests:
 
@@ -74,7 +74,7 @@ cargo test
 Use the ICP local testnet to manually invoke canister functions.
 
 
-****Troubleshooting****
+# Troubleshooting
 
 If the deployment fails, verify your Rust and DFINITY SDK installation.
 Use the dfx help command for troubleshooting common issues.
