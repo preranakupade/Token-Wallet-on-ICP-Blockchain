@@ -3,7 +3,7 @@
 This project is a Rust-based token wallet implemented on the Internet Computer Protocol (ICP) blockchain. The wallet supports functionalities such as sending and receiving tokens, checking balances, and ensuring basic wallet security.
 
 
-#Features
+**Features**
 
 Mint Tokens: Add tokens to a wallet for testing purposes.
 Transfer Tokens: Send tokens from one wallet to another.
